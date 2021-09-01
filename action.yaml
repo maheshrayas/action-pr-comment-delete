@@ -11,6 +11,8 @@ inputs:
   user:
     description: 'User whose comments needs to be deleted.'
     default: 'github-actions[bot]'
+  issue:
+    description: 'pr issue number'
 
 runs:
   using: 'docker'
