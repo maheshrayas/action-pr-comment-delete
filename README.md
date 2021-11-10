@@ -9,6 +9,8 @@
 
 When a bot or user comments on a Github Pull request, the comments keep getting added for the subsequent push on the same PR. This Github action can be used in Github workflow prior to the GitHub Job which actually comments on the PR.
 
+NOTE: If you want use this action with macOS or Windows Refer [v2.0](https://github.com/maheshrayas/action-pr-comment-delete/tree/mac-windows)
+
 ## Examples:
 
 ```bash
