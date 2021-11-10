@@ -8,6 +8,8 @@
 
 When a bot or user comments on a Github Pull request, the comments keep getting added for the subsequent push on the same PR. This Github action can be used in Github workflow prior to the GitHub Job which actually comments on the PR.
 
+Make this below job as the first step in your workflow so that everytime a job is run as a part of PR, it would clean up any existing comments by the respective user.
+
 ## Examples:
 
 ```bash
