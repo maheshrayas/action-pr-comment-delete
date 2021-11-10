@@ -10,7 +10,7 @@ try {
     const repo = core.getInput('repo');
 
     let token = `token ${githubToken}` 
-    let req = await octokit.request('GET /repos/{owner}/{repo}/issues/{issue_number}/comments', {
+    let req = await Octokit.request('GET /repos/{owner}/{repo}/issues/{issue_number}/comments', {
         headers: {
             authorization: token,
           },
