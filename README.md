@@ -3,7 +3,7 @@
   <p align="center">action-pr-comment-delete</p>
 </h1>
 <div align="center">
-  <a alt="Action pulled"><img src="https://img.shields.io/docker/pulls/maheshrayas/pr-comment-deleter.svg" /></a>
+  <a alt=""><img src="https://img.shields.io/docker/pulls/maheshrayas/pr-comment-deleter.svg" /></a>
   </div>
 
 
