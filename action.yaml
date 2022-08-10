@@ -1,22 +1,22 @@
-name: 'Delete PR Comments during subsequent CI '
-description: 'Deletes old/stale pr bot comments'
-author: 'Mahesh Rayas'
+name: "Delete PR Comments during subsequent CI "
+description: "Deletes old/stale pr bot comments"
+author: "Mahesh Rayas"
 inputs:
   github_token:
-    description: 'GITHUB_TOKEN.'
+    description: "GITHUB_TOKEN."
   org:
-    description: 'pass github org'
+    description: "pass github org"
   repo:
-    description: 'pass github repository'
+    description: "pass github repository"
   user:
-    description: 'User whose comments needs to be deleted.'
-    default: 'github-actions[bot]'
+    description: "User whose comments needs to be deleted."
+    default: "github-actions[bot]"
   issue:
-    description: 'pr issue number'
+    description: "pr issue number"
 
 runs:
-  using: 'docker'
-  image: 'docker://maheshrayas/pr-comment-deleter:1.0'
+  using: "docker"
+  image: "docker://maheshrayas/pr-comment-deleter:3.0"
 branding:
-  icon: 'zoom-in'
-  color: 'purple'
+  icon: "zoom-in"
+  color: "purple"
