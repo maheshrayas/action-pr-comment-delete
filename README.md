@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: pr-deleter
-        uses: maheshrayas/action-pr-comment-delete@v1
+        uses: maheshrayas/action-pr-comment-delete@v3.0
         with:
           github_token: '${{ secrets.GITHUB_TOKEN }}'
           org: <orgname>
