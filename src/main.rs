@@ -35,7 +35,7 @@ async fn main() -> Result<(), reqwest::Error> {
     headers.insert("User-Agent", repo.parse().unwrap());
 
     let url = format!(
-        "https://api.github.com/repos/{}/{}/issues/{}/comments",
+        "https://api.github.com/repos/{}/{}/issues/{}/comments?per_page=100",
         &org, &repo, &issue
     );
     let res = client.get(url).headers(headers.to_owned()).send().await?;
