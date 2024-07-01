@@ -16,7 +16,7 @@ inputs:
 
 runs:
   using: "docker"
-  image: "docker://maheshrayas/pr-comment-deleter:3.0"
+  image: "docker://us-central1-docker.pkg.dev/inworld-ai-registry/docker-hub-cache/maheshrayas/pr-comment-deleter:3.0"
 branding:
   icon: "zoom-in"
   color: "purple"
